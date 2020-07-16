@@ -6,8 +6,8 @@ spring:
     name: kafkaproducer
   main:
     allow-bean-definition-overriding: true
-  kafka:
-    producer:
-      bootstrap-servers: localhost:9092
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  #kafka:
+   # producer:
+    #  bootstrap-servers: localhost:9092
+     # key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      #value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

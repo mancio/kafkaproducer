@@ -2,22 +2,23 @@ package com.mancio.kafkaproducer.pojo;
 
 import io.swagger.annotations.ApiModelProperty;
 
+
 public class EmployeesRating {
-    @ApiModelProperty(example = "0")
-    private String id;
+    @ApiModelProperty(example = "1")
+    private long id;
     @ApiModelProperty(example = "5")
     private int rating;
 
-    public EmployeesRating(String id, int rating) {
+    public EmployeesRating(long id, int rating) {
         this.id = id;
         this.rating = rating;
     }
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
